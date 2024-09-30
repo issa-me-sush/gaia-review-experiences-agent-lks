@@ -20,9 +20,16 @@ const Home: NextPage = () => {
                 <span className="text-xl font-bold">Gaia Experiences Agent</span>
               </div>
             </div>
-            <div className="flex items-center">
-              <ConnectButton />
-            </div>
+
+           <div className="flex items-center space-x-4">
+  <button
+    onClick={() => window.open('https://www.gaianet.ai/chat?subdomain=0x14c209deffc1a7c658c0870e885b27e061c0ae21.us.gaianet.network', '_blank')}
+    className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+  >
+    GAIA Agent Chat
+  </button>
+  <ConnectButton />
+</div>
           </div>
         </div>
       </nav>

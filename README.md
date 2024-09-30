@@ -5,7 +5,7 @@
 
 ## has three key components :
 
-- a web app where users can create reviews and experiences and also search for reviews and experiences
+- a web app where users can create reviews and experiences and also search for reviews and experiences (https://gaia2024.vercel.app/)
 - the agent chat UI that keeps getting udpated regularly with fresh data as a living knowledge system
 - the backend that keeps pulling data from the DB of user submissions and updating the agent regularly throuhg an automated pipeline 
 
