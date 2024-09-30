@@ -1,29 +1,13 @@
-This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](/packages/create-rainbowkit).
+# A living knowledge system for crowdsourced reviews and experiences from around the world
 
-## Getting Started
+## as the one liner summarizes, its pretty much a living knowledge system based on the communities reviews and contributions of data on different products and places they might have visited, its a way to crowdsource data and also further plans to make it more legitimate with voting and worldcoin humanity verification!
 
-First, run the development server:
 
-```bash
-npm run dev
-```
+## has three key components :
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- a web app where users can create reviews and experiences and also search for reviews and experiences
+- the agent chat UI that keeps getting udpated regularly with fresh data as a living knowledge system
+- the backend that keeps pulling data from the DB of user submissions and updating the agent regularly throuhg an automated pipeline 
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-## Learn More
 
-To learn more about this stack, take a look at the following resources:
-
-- [RainbowKit Documentation](https://rainbowkit.com) - Learn how to customize your wallet connection flow.
-- [wagmi Documentation](https://wagmi.sh) - Learn how to interact with Ethereum.
-- [Next.js Documentation](https://nextjs.org/docs) - Learn how to build a Next.js application.
-
-You can check out [the RainbowKit GitHub repository](https://github.com/rainbow-me/rainbowkit) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
